@@ -1,0 +1,19 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "This repository is associated with [this YouTube video](https://youtu.be/VQ3G8uWGApE).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node appapi.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "axios": "^0.19.2",
+    "cron": "^1.8.2"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Alert</title>
+    <link rel="stylesheet" href="public/css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+</head>
+
+<body>
+    <section class="subscription bg-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="subscription-wrapper">
+                <div class="d-flex subscription-content justify-content-between align-items-center flex-column flex-md-row text-center text-md-left">
+                  <h3 class="flex-fill">Unsubscribe <br> to our Weather Alerts</h3>
+                  <form action="delete" method="POST" class="row flex-fill " style="background: none;">
+                    <div class="col-lg-7 my-md-2 my-2" style="background: none;">
+                      <input type="email" class="form-control px-4 border-0 w-100 text-center text-md-left" style="background: none;" id="email" placeholder="Your Email" name="email" required`><br>
+                    </div>
+                    <div class="col-lg-5 my-md-2 my-2" style="background: none;">
+                      <button type="submit" class="btn btn-primary btn-lg border-0 w-100" style="background: none;">Unsubscribe</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+</body>
+</html>

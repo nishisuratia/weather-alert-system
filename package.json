@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "alert": "^5.0.12",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cron": "^2.0.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "mongoose": "^6.3.4",
+    "nodemailer": "^6.7.5",
+    "popups": "^1.1.3",
+    "sudo": "^1.0.3"
+  },
+  "name": "weather-alert",
+  "version": "1.0.0",
+  "description": "index ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nishi",
+  "license": "MIT",
+  "engines": {
+    "node": "14.17.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
